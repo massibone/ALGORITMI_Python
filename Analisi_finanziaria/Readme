@@ -1,0 +1,2 @@
+L'algoritmo sliding window è una tecnica utilizzata per ottimizzare la soluzione di problemi su sequenze o array, spesso per calcolare statistiche o trovare sottosequenze che soddisfano certe condizioni. 
+È particolarmente utile per problemi che richiedono l'esame di tutte le sottosequenze di una certa lunghezza all'interno di una sequenza più lunga.
