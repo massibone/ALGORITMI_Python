@@ -1,1 +1,10 @@
-Vari algoritmi di ricerca
+Ci saranno vari algoritmi di ricerca:
+
+-Ricerca lineare: Questo algoritmo è il più semplice e intuitivo. Si scorre un elenco di elementi uno alla volta fino a trovare l'elemento cercato o fino a che non si raggiunge la fine dell'elenco.
+-Ricerca binaria: Questo algoritmo è più efficiente della ricerca lineare e si applica solo a elenchi ordinati. 
+                  Funziona dividendo l'elenco a metà in modo ricorsivo, restringendo il campo di ricerca fino a trovare l'elemento cercato.
+-Ricerca per interpolazione: Questo algoritmo è una variante della ricerca binaria che sfrutta le informazioni addizionali sulla distribuzione dei dati per migliorare le prestazioni.
+-Ricerca hash: Questo algoritmo utilizza una struttura dati chiamata tabella hash per mappare le chiavi agli elementi in modo efficiente. 
+               La ricerca per hash è molto veloce per trovare elementi in grandi elenchi non ordinati.
+-Ricerca A:* Questo algoritmo è un algoritmo di ricerca euristica utilizzato per trovare il percorso più breve tra due nodi in un grafo.
+             È spesso utilizzato in applicazioni come la navigazione stradale e la pianificazione del percorso.
