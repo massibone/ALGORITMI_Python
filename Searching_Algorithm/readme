@@ -1,6 +1,7 @@
 Ci saranno vari algoritmi di ricerca:
 
--Ricerca lineare: Questo algoritmo è il più semplice e intuitivo. Si scorre un elenco di elementi uno alla volta fino a trovare l'elemento cercato o fino a che non si raggiunge la fine dell'elenco.
+-Ricerca lineare: Questo algoritmo è il più semplice e intuitivo. Si scorre un elenco di elementi uno alla volta 
+                  fino a trovare l'elemento cercato o fino a che non si raggiunge la fine dell'elenco.
 -Ricerca binaria: Questo algoritmo è più efficiente della ricerca lineare e si applica solo a elenchi ordinati. 
                   Funziona dividendo l'elenco a metà in modo ricorsivo, restringendo il campo di ricerca fino a trovare l'elemento cercato.
 -Ricerca per interpolazione: Questo algoritmo è una variante della ricerca binaria che sfrutta le informazioni addizionali sulla distribuzione dei dati per migliorare le prestazioni.
