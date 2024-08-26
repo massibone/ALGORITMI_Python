@@ -21,3 +21,11 @@ def ternary_search(f, l, r, eps):
         else:
             r = m2
     return (l + r) / 2
+
+# Esempio di funzione unimodale (parabola)
+def f(x):
+    return -(x - 3) ** 2 + 9
+
+# Intervallo di ricerca
+l = 0
+r = 6
