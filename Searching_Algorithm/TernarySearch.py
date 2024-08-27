@@ -29,3 +29,8 @@ def f(x):
 # Intervallo di ricerca
 l = 0
 r = 6
+# Precisione desiderata
+eps = 1e-9
+
+# Trova il massimo della funzione f nell'intervallo [l, r]
+max_point = ternary_search(f, l, r, eps)
