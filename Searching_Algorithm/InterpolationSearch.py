@@ -13,7 +13,7 @@ def interpolation_search(arr, x):
         # Altrimenti, cerca a sinistra
         else:
             high = pos - 1
-          return -1
+    return -1
 
 # Esempio di utilizzo
 arr = [1, 3, 5, 7, 9, 11, 13, 15, 17, 19]
