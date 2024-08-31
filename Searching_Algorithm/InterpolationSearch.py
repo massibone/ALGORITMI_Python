@@ -15,12 +15,12 @@ def interpolation_search(arr, x):
             high = pos - 1
     return -1
 
-# Esempio di utilizzo
-arr = [1, 3, 5, 7, 9, 11, 13, 15, 17, 19]
-x = 11
-result = interpolation_search(arr, x)
-if result != -1:
+ # Esempio di utilizzo
+ arr = [1, 3, 5, 7, 9, 11, 13, 15, 17, 19]
+ x = 11
+ result = interpolation_search(arr, x)
+ if result != -1:
     print("Elemento", x, "trovato all'indice", result)
-else:
+ else:
     print("Elemento", x, "non trovato nell'array")
   
