@@ -1,3 +1,10 @@
 
 differenza con jump search.
-Interpolation Search stima la posizione dell'elemento basandosi sul valore e sull'intervallo di ricerca, mentre Jump Search divide i dati in blocchi e ricerca linearmente in ciascuno. Interpolation richiede un insieme ordinato con accesso proporzionale alla posizione, mentre Jump Search può essere utilizzato con dati ordinati e richiede meno operazioni. Interpolation ha complessità media O(log log n), Jump O(√n), rendendolo più efficiente con insiemi di dati grandi e uniformi. Interpolation utilizza l'interpolazione lineare per stimare la posizione, mentre Jump Search calcola la "prossimità" utilizzando la radice quadrata della lunghezza dell'insieme di dati come passo di salto.
+Interpolation Search stima la posizione dell'elemento basandosi sul valore e sull'intervallo di ricerca, 
+mentre Jump Search divide i dati in blocchi e ricerca linearmente in ciascuno. 
+Interpolation richiede un insieme ordinato con accesso proporzionale alla posizione, 
+mentre Jump Search può essere utilizzato con dati ordinati e richiede meno operazioni. 
+Interpolation ha complessità media O(log log n), Jump O(√n), rendendolo più efficiente con insiemi di dati grandi e uniformi. 
+Interpolation utilizza l'interpolazione lineare per stimare la posizione, 
+mentre Jump Search calcola la "prossimità" utilizzando la radice quadrata 
+della lunghezza dell'insieme di dati come passo di salto.
