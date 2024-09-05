@@ -4,23 +4,7 @@ la ricerca binaria è la scelta migliore con un tempo di esecuzione.
 Tuttavia, se hai una lista non ordinata e desideri migliorare leggermente le prestazioni della ricerca lineare, puoi considerare l'utilizzo della ricerca lineare con sentinella, 
 che ha un tempo di esecuzione peggiore
 '''
-#sentinel_search
-'''
-def sentinel_linear_search(arr, target):
-    n = len(arr)
-    last_element = arr[n - 1]  # Elemento sentinella
-    arr[n - 1] = target  # Imposta l'elemento sentinella come l'elemento da cercare
-    
-    i = 0
-    while arr[i] != target:
-        i += 1
-    
-    arr[n - 1] = last_element  # Ripristina l'elemento sentinella
-    if i < n - 1 or arr[n - 1] == target:
-        return i
-    else:
-        return -1
-'''
+
 def binary_search(arr, target):
     """
     Implementazione dell'algoritmo di ricerca binaria.
