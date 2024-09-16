@@ -3,3 +3,23 @@ Algoritmi di Ordinamento
 Gli algoritmi di ordinamento sono tecniche utilizzate per organizzare una collezione di dati (come numeri o stringhe) in un ordine specifico, solitamente crescente o decrescente. 
 Questi algoritmi riorganizzano gli elementi della collezione seguendo delle regole precise, 
 garantendo che ogni elemento sia posizionato in modo corretto rispetto agli altri.
+
+Algoritmi di Ordinamento Semplici
+Selection Sorte Bubble Sort (è tra i più lenti).
+
+Implementazioni Avanzate
+Merge Sort e:
+1. Quick Sort
+2. Heap Sort
+3. Radix Sort
+4. Counting Sort
+5. Shell Sort
+6. Bucket Sort
+7. Tim Sort
+
+Differenze tra gli Algoritmi
+Efficienza: Gli algoritmi semplici come Bubble Sort, Selection Sort e Insertion Sort sono poco adatti per grandi quantità di dati. Merge Sort è più adatto per dataset più ampi.
+
+Stabilità: Alcuni algoritmi, come Insertion Sort e Merge Sort, sono stabili, cioè mantengono l'ordine relativo degli elementi uguali. Altri, come Selection Sort, non lo sono.
+
+Spazio di Memoria: Algoritmi come Insertion Sort sono "in-place" (non richiedono memoria aggiuntiva significativa oltre ai dati originali), mentre Merge Sort richiede memoria extra per la fusione delle sottoliste.
