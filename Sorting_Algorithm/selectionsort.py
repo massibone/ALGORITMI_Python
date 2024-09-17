@@ -5,3 +5,6 @@ Entrambi questi algoritmi sono semplici da implementare ma non sono efficienti p
 
 Per set di dati più grandi, algoritmi più efficienti come QuickSort, MergeSort o HeapSort sarebbero preferibili.
 '''
+'''
+Selection Sort: Questo algoritmo seleziona ripetutamente l'elemento minimo (o massimo) dalla parte non ordinata dell'array e lo sposta alla posizione corretta. È facile da implementare ma inefficiente per grandi quantità di dati, avendo una complessità temporale di O(n^2)
+'''
