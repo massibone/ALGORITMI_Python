@@ -29,3 +29,17 @@ def selection_sort(arr):
         for j in range(i+1, n):
             if arr[min_idx] > arr[j]:
                 min_idx = j
+       # Scambiare il minimo elemento con il primo elemento non ordinato
+        arr[i], arr[min_idx] = arr[min_idx], arr[i]
+
+# Esempio di utilizzo
+arr = [64, 34, 25, 12, 22, 11, 90]
+
+print("Array originale:", arr)
+selection_sort(arr)
+print("Array ordinato:", arr)
+# Esempio di utilizzo
+numeri = [64, 34, 25, 12, 22, 11, 90]
+print("Array non ordinato:", numeri)
+numeri_ordinati = selection_sort(numeri)
+print("Array ordinato:", numeri_ordinati)
