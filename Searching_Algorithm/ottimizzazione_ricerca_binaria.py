@@ -27,3 +27,21 @@ lista_grande_ordinata = genera_lista_ordinata(n)
 
 # Elemento da cercare
 elemento_da_cercare = random.choice(lista_grande_ordinata)
+
+# Test ricerca lineare
+inizio = time.time()
+indice_lineare = ricerca_lineare(lista_grande_ordinata, elemento_da_cercare)
+fine = time.time()
+tempo_lineare = fine - inizio
+
+# Test ricerca binaria
+inizio = time.time()
+indice_binario = ricerca_binaria(lista_grande_ordinata, elemento_da_cercare)
+fine = time.time()
+tempo_binario = fine - inizio
+
+print(f"Tempo ricerca lineare: {tempo_lineare:.6f} secondi")
+print(f"Tempo ricerca binaria: {tempo_binario:.6f} secondi")
+print(f"Speedup: {tempo_lineare / tempo_binario:.2f}x")
+print(f"Indice trovato (lineare): {indice_lineare}")
+print(f"Indice trovato (binario): {indice_binario}")
