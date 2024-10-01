@@ -20,3 +20,19 @@ def insertion_sort(arr):
             arr[j + 1] = arr[j]
             j -= 1
         
+
+        # Inserisce key nella sua posizione corretta
+        arr[j + 1] = key
+
+    return arr
+
+# Esempio di utilizzo
+if __name__ == "__main__":
+    # Lista di esempio
+    my_list = [64, 34, 25, 12, 22, 11, 90]
+    
+    print("Lista non ordinata:", my_list)
+    
+    # Chiamata alla funzione di ordinamento
+    sorted_list = insertion_sort(my_list)
+    
