@@ -36,3 +36,9 @@ if __name__ == "__main__":
     # Chiamata alla funzione di ordinamento
     sorted_list = insertion_sort(my_list)
     
+
+    print("Lista ordinata:", sorted_list)
+'''
+Implementazioni Avanzate
+Merge Sort: Un algoritmo di ordinamento che segue il paradigma "divide et impera". Divide ricorsivamente l'array in due metà, ordina ciascuna metà e poi le unisce. Merge Sort è molto più efficiente dei precedenti per grandi set di dati.
+'''
