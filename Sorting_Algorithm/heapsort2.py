@@ -23,12 +23,12 @@ def heapify(arr, n, i):
         i = largest
 
 def heap_sort(arr):
-    """
+    '''
     Ordina un array utilizzando l'algoritmo Heap Sort.
     
     :param arr: L'array da ordinare
     :return: None (l'array viene ordinato in-place)
-    """
+    '''
     if not arr:
         return  # Gestione del caso di array vuoto
     
