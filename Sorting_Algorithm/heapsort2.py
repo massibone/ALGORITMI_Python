@@ -33,4 +33,12 @@ def heap_sort(arr):
         return  # Gestione del caso di array vuoto
     
     n = len(arr)
+  # Costruzione del max-heap
+    for i in range(n // 2 - 1, -1, -1):
+        heapify(arr, n, i)
     
+    # Estrazione degli elementi uno alla volta
+    for i in range(n - 1, 0, -1):
+        arr[0], arr[i] = arr[i], arr[0]  # Scambio
+        heapify(arr, i, 0)
+  
