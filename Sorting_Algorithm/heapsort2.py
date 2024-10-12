@@ -52,3 +52,11 @@ def heap_sort(arr):
     except ValueError:
         print("Input non valido. Assicurati di inserire solo numeri interi.")
         return get_user_input()
+    if __name__ == "__main__":
+    # Test con array predefinito
+    arr_test = [12, 11, 13, 5, 6, 7]
+    print("Test con array predefinito:")
+    print("Array originale:", arr_test)
+    heap_sort(arr_test)
+    print("Array ordinato:", arr_test)
+    
