@@ -46,3 +46,8 @@ def heap_sort(arr):
     
     :return: Una lista di numeri inseriti dall'utente
     """
+    try:
+        return [int(x) for x in input("Inserisci i numeri separati da spazi: ").split()]
+    except ValueError:
+        print("Input non valido. Assicurati di inserire solo numeri interi.")
+        return get_user_input()
