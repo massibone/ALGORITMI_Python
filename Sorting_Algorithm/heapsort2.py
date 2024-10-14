@@ -60,3 +60,10 @@ def heap_sort(arr):
     heap_sort(arr_test)
     print("Array ordinato:", arr_test)
     
+     # Test con input dell'utente
+    print("\nTest con input dell'utente:")
+    user_arr = get_user_input()
+    print("Array originale:", user_arr)
+    heap_sort(user_arr)
+    print("Array ordinato:", user_arr)
+    
