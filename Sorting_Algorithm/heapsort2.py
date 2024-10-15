@@ -66,4 +66,9 @@ def heap_sort(arr):
     print("Array originale:", user_arr)
     heap_sort(user_arr)
     print("Array ordinato:", user_arr)
+    # Test con casi limite
+    print("\nTest con array vuoto:")
+    empty_arr = []
+    heap_sort(empty_arr)
+    print("Array ordinato (vuoto):", empty_arr)
     
