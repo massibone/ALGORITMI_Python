@@ -72,4 +72,9 @@ def heap_sort(arr):
     empty_arr = []
     heap_sort(empty_arr)
     print("Array ordinato (vuoto):", empty_arr)
+
+        print("\nTest con array di un solo elemento:")
+    single_element_arr = [42]
+    heap_sort(single_element_arr)
+    print("Array ordinato (un elemento):", single_element_arr)
     
