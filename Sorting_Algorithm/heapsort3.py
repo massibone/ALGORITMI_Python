@@ -9,3 +9,11 @@ if __name__ == "__main__":
     sorted_arr = heap_sort(arr)
     print("Array ordinato:", sorted_arr)
     
+
+
+    # Test con un array già ordinato
+    arr_ordinato = [1, 2, 3, 4, 5]
+    print("Array ordinato originale:", arr_ordinato)
+    sorted_arr_ordinato = heap_sort(arr_ordinato)
+    print("Array ordinato dopo heap sort:", sorted_arr_ordinato)
+    
