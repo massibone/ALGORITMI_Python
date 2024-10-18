@@ -15,3 +15,8 @@ if __name__ == "__main__":
     sorted_arr_ordinato = heap_sort(arr_ordinato)
     print("Array ordinato dopo heap sort:", sorted_arr_ordinato)
     
+    # Test con un array inversamente ordinato
+    arr_inverso = [5, 4, 3, 2, 1]
+    print("Array inverso:", arr_inverso)
+    sorted_arr_inverso = heap_sort(arr_inverso)
+    print("Array ordinato dopo heap sort:", sorted_arr_inverso)
