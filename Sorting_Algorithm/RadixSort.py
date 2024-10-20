@@ -22,3 +22,8 @@ def counting_sort(arr, exp1):
     Implementa l'Ordine per Conteggio basato sulla cifra corrente.
     """
     
+    n = len(arr)
+    # L'output sarà l'array ordinato
+    output = [0] * n
+    # Inizializza un array di conteggio come 0
+    count = [0] * 10
