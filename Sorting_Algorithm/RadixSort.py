@@ -27,3 +27,7 @@ def counting_sort(arr, exp1):
     output = [0] * n
     # Inizializza un array di conteggio come 0
     count = [0] * 10
+   # Archivia il conteggio di ogni cifra nel conteggio[]
+    for i in range(n):
+        index = arr[i] // exp1
+        count[index % 10] += 1
