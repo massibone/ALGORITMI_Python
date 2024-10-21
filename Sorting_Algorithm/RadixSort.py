@@ -31,3 +31,9 @@ def counting_sort(arr, exp1):
     for i in range(n):
         index = arr[i] // exp1
         count[index % 10] += 1
+
+    # Modifica count[i] in modo che count[i] contenga la posizione
+    # della cifra corrente nell'output
+    for i in range(1, 10):
+        count[i] += count[i - 1]
+
