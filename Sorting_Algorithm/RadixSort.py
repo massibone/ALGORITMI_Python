@@ -38,3 +38,14 @@ def counting_sort(arr, exp1):
     for i in range(1, 10):
         count[i] += count[i - 1]
 
+    
+
+    i = n - 1
+    while i >= 0:
+        index = arr[i] // exp1
+        output[count[index % 10] - 1] = arr[i]
+        count[index % 10] -= 1
+        i -= 1
+
+    for i in range(n):
+        arr[i] = output[i]
