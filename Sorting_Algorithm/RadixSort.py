@@ -48,7 +48,7 @@ def counting_sort(arr, exp1):
         i -= 1
 
     for i in range(n):
-        arr[i] = output[i]e
+        arr[i] = output[i]
     # Esempio di utilizzo
 arr = [170, 45, 75, 90, 802, 24, 2, 66]
 radix_sort(arr)
