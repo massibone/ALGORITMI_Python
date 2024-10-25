@@ -21,3 +21,12 @@ def counting_sort(arr, place_value):
 
     for i in range(1, 10):
         count[i] += count[i - 1]
+ i = n - 1
+    while i >= 0:
+        num = arr[i]
+        index = (num // place_value) % 10
+        output[count[index] - 1] = num
+        count[index] -= 1
+        i -= 1
+
+    arr[:] = output
