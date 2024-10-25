@@ -28,5 +28,18 @@ def counting_sort(arr, place_value):
         output[count[index] - 1] = num
         count[index] -= 1
         i -= 1
+# Esempio di utilizzo
+if __name__ == "__main__":
+    import time
 
+    arr = [170, 45, 75, 90, 802, 24, 2, 66]
+    print("Array originale:", arr)
+
+    start_time = time.time()
+    radix_sort(arr)
+    end_time = time.time()
+
+    print("Array ordinato:", arr)
+    print(f"Tempo di esecuzione: {end_time - start_time:.6f} secondi")
+    
     arr[:] = output
