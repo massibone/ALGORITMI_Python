@@ -1,1 +1,2 @@
-
+Counting Sort è un algoritmo non comparativo che funziona bene quando gli elementi da ordinare sono numeri interi con un range limitato. Crea un array di conteggi per ogni valore e poi utilizza questi conteggi per ordinare gli elementi.
+L'algoritmo di Counting Sort è maggiormente utilizzato in scenari specifici dove le sue caratteristiche si adattano bene ai requisiti del problema. Ecco alcuni ambiti e casi d'uso dove Counting Sort è comunemente impiegato:
