@@ -4,3 +4,6 @@ L'algoritmo di Counting Sort è maggiormente utilizzato in scenari specifici dov
 1. **Database e Sistemi di Gestione dei Dati**:
    - **Ordinamento di Chiavi di Piccole Dimensioni**: Quando le chiavi da ordinare sono numeri interi a bassa entropia (pochi valori unici), Counting Sort è efficiente.
    - ** Ottimizzazione delle Query**: In alcuni casi, può essere utilizzato come passo preliminare per migliorare le prestazioni di algoritmi di ordinamento più complessi.
+2. **Elaborazione di Dati in Tempo Reale**:
+   - **Sistemi di Monitoraggio e Logging**: Dove i dati (ad esempio, codici di stato, ID utente, ecc.) devono essere ordinati rapidamente per analisi immediate.
+   - **Applicazioni di IoT (Internet of Things)**: Per l'elaborazione rapida di grandi quantità di dati sensore, spesso rappresentati da valori interi con un range limitato.
