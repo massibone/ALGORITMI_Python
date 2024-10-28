@@ -7,3 +7,6 @@ L'algoritmo di Counting Sort è maggiormente utilizzato in scenari specifici dov
 2. **Elaborazione di Dati in Tempo Reale**:
    - **Sistemi di Monitoraggio e Logging**: Dove i dati (ad esempio, codici di stato, ID utente, ecc.) devono essere ordinati rapidamente per analisi immediate.
    - **Applicazioni di IoT (Internet of Things)**: Per l'elaborazione rapida di grandi quantità di dati sensore, spesso rappresentati da valori interi con un range limitato.
+3. **Sistemi Embedded e con Risorse Limitate**:
+   - **Microcontrollori e Sistemi Operativi Embedded**: Dove la memoria e la potenza di calcolo sono limitate, Counting Sort può essere preferito per la sua efficienza in termini di memoria e tempo di esecuzione.
+   - **Dispositivi Mobili con vincoli di Risorse**: In alcuni casi, per l'ordinamento di dataset piccoli ma critici per le prestazioni.
