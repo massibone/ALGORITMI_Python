@@ -1,12 +1,16 @@
-Counting Sort è un algoritmo non comparativo che funziona bene quando gli elementi da ordinare sono numeri interi con un range limitato. Crea un array di conteggi per ogni valore e poi utilizza questi conteggi per ordinare gli elementi.
-L'algoritmo di Counting Sort è maggiormente utilizzato in scenari specifici dove le sue caratteristiche si adattano bene ai requisiti del problema. Ecco alcuni ambiti e casi d'uso dove Counting Sort è comunemente impiegato:
+Counting Sort è un algoritmo non comparativo che funziona bene quando gli elementi da ordinare sono numeri interi con un range limitato.
+Crea un array di conteggi per ogni valore e poi utilizza questi conteggi per ordinare gli elementi.
+L'algoritmo di Counting Sort è maggiormente utilizzato in scenari specifici dove le sue caratteristiche 
+si adattano bene ai requisiti del problema. Ecco alcuni ambiti e casi d'uso dove Counting Sort è comunemente impiegato:
 
 1. **Database e Sistemi di Gestione dei Dati**:
    - **Ordinamento di Chiavi di Piccole Dimensioni**: Quando le chiavi da ordinare sono numeri interi a bassa entropia (pochi valori unici), Counting Sort è efficiente.
    - ** Ottimizzazione delle Query**: In alcuni casi, può essere utilizzato come passo preliminare per migliorare le prestazioni di algoritmi di ordinamento più complessi.
+
 2. **Elaborazione di Dati in Tempo Reale**:
    - **Sistemi di Monitoraggio e Logging**: Dove i dati (ad esempio, codici di stato, ID utente, ecc.) devono essere ordinati rapidamente per analisi immediate.
    - **Applicazioni di IoT (Internet of Things)**: Per l'elaborazione rapida di grandi quantità di dati sensore, spesso rappresentati da valori interi con un range limitato.
+
 3. **Sistemi Embedded e con Risorse Limitate**:
    - **Microcontrollori e Sistemi Operativi Embedded**: Dove la memoria e la potenza di calcolo sono limitate, Counting Sort può essere preferito per la sua efficienza in termini di memoria e tempo di esecuzione.
    - **Dispositivi Mobili con vincoli di Risorse**: In alcuni casi, per l'ordinamento di dataset piccoli ma critici per le prestazioni.
