@@ -14,3 +14,6 @@ si adattano bene ai requisiti del problema. Ecco alcuni ambiti e casi d'uso dove
 3. **Sistemi Embedded e con Risorse Limitate**:
    - **Microcontrollori e Sistemi Operativi Embedded**: Dove la memoria e la potenza di calcolo sono limitate, Counting Sort può essere preferito per la sua efficienza in termini di memoria e tempo di esecuzione.
    - **Dispositivi Mobili con vincoli di Risorse**: In alcuni casi, per l'ordinamento di dataset piccoli ma critici per le prestazioni.
+4. **Applicazioni di Sicurezza Informatica**:
+   - **Analisi del Traffico di Rete**: Per l'ordinamento rapido di dati relativi al traffico (ad esempio, porte, tipi di pacchetti, ecc.) ai fini dell'analisi e della detezione di anomalie.
+   - **Sistemi di Prevenzione delle Intrusioni (IPS)**: Dove l'efficienza nell'ordinamento dei dati può influire sulla capacità di rilevare e rispondere tempestivamente alle minacce.
