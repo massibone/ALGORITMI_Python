@@ -17,3 +17,6 @@ si adattano bene ai requisiti del problema. Ecco alcuni ambiti e casi d'uso dove
 4. **Applicazioni di Sicurezza Informatica**:
    - **Analisi del Traffico di Rete**: Per l'ordinamento rapido di dati relativi al traffico (ad esempio, porte, tipi di pacchetti, ecc.) ai fini dell'analisi e della detezione di anomalie.
    - **Sistemi di Prevenzione delle Intrusioni (IPS)**: Dove l'efficienza nell'ordinamento dei dati può influire sulla capacità di rilevare e rispondere tempestivamente alle minacce.
+
+5. **Applicazioni Scientifiche e di Simulazione**:
+   - **Simulazioni Fisiche e Chimiche**: Dove grandi quantità di dati, spesso rappresentati da interi con un range specifico, richiedono un ordinamento efficiente.
