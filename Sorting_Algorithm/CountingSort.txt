@@ -20,3 +20,10 @@ si adattano bene ai requisiti del problema. Ecco alcuni ambiti e casi d'uso dove
 
 5. **Applicazioni Scientifiche e di Simulazione**:
    - **Simulazioni Fisiche e Chimiche**: Dove grandi quantità di dati, spesso rappresentati da interi con un range specifico, richiedono un ordinamento efficiente.
+
+
+In sintesi, Counting Sort è particolarmente utile quando:
+- I dati da ordinare sono numeri interi.
+- Il range dei valori è relativamente piccolo.
+- È necessaria un'efficienza elevata in termini di tempo di esecuzione.
+- Le risorse di memoria sono limitate.
