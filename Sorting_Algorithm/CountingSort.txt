@@ -5,6 +5,7 @@ si adattano bene ai requisiti del problema. Ecco alcuni ambiti e casi d'uso dove
 
 1. **Database e Sistemi di Gestione dei Dati**:
    - **Ordinamento di Chiavi di Piccole Dimensioni**: Quando le chiavi da ordinare sono numeri interi a bassa entropia (pochi valori unici), Counting Sort è efficiente.
+
    - ** Ottimizzazione delle Query**: In alcuni casi, può essere utilizzato come passo preliminare per migliorare le prestazioni di algoritmi di ordinamento più complessi.
 
 2. **Elaborazione di Dati in Tempo Reale**:
