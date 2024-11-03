@@ -9,3 +9,6 @@ def counting_sort(array):
     min_value = min(array)
     max_value = max(array)
     
+  # Passo 2: Creare un array di conteggi, con dimensione pari alla differenza tra il valore massimo e minimo più uno
+    count_array = [0] * (max_value - min_value + 1)
+    
