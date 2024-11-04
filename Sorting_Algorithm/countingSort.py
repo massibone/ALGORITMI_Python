@@ -16,3 +16,7 @@ def counting_sort(array):
     for num in array:
         count_array[num - min_value] += 1
     
+ # Passo 4: Calcolare le posizioni cumulative nell'array di conteggi
+    for i in range(1, len(count_array)):
+        count_array[i] += count_array[i - 1]
+    
