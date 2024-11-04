@@ -12,3 +12,8 @@ def counting_sort(array):
   # Passo 2: Creare un array di conteggi, con dimensione pari alla differenza tra il valore massimo e minimo più uno
     count_array = [0] * (max_value - min_value + 1)
     
+
+    # Passo 3: Contare le occorrenze di ogni valore nell'array originale
+    for num in array:
+        count_array[num - min_value] += 1
+    
