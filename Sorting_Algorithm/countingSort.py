@@ -28,4 +28,10 @@ def counting_sort(array):
     
     return sorted_array
 
-# 
+   #   Esempio di utilizzo
+   if __name__ == "__main__":
+        array_di_esempio = [4, 2, 2, 8, 3, 3, 1]
+        print("Array originale:", array_di_esempio)
+        print("Array ordinato con Counting Sort:", counting_sort(array_di_esempio))
+
+
