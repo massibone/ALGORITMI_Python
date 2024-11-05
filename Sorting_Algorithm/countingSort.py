@@ -20,7 +20,7 @@ def counting_sort(array):
     for i in range(1, len(count_array)):
         count_array[i] += count_array[i - 1]
     
-# Passo 5: Costruire l'array ordinato utilizzando le posizioni cumulative
+    # Passo 5: Costruire l'array ordinato utilizzando le posizioni cumulative
     sorted_array = [0] * len(array)
     for num in array:
         sorted_array[count_array[num - min_value] - 1] = num
