@@ -9,3 +9,10 @@ def shell_sort_shell_sequence(array):
     :param array: Lista di elementi da ordinare.
     :return: Lista ordinata.
     """
+    # Sequenza di gap di Shell (originale): inizia con metà della lunghezza dell'array e dimezza ad ogni passo
+    gap = len(array) // 2
+    
+    while gap > 0:
+        for i in range(gap, len(array)):
+            temp = array[i]
+            j = i
