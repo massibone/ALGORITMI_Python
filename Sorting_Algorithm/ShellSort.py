@@ -38,3 +38,12 @@ def shell_sort_shell_sequence(array):
                 j -= gap
             
    
+
+         # Inserimento dell'elemento nella posizione corretta
+            array[j] = temp
+        
+        # Riduzione della distanza di gap per il prossimo passo
+        gap //= 2
+    
+    return array
+
