@@ -47,3 +47,9 @@ def shell_sort_shell_sequence(array):
     
     return array
 
+
+# Esempio di utilizzo
+if __name__ == "__main__":
+    array_di_esempio = [64, 34, 25, 12, 22, 11, 90]
+    print("Array originale:", array_di_esempio)
+    print("Array ordinato con Shell Sort (sequenza di Shell):", shell_sort_shell_sequence(array_di_esempio))
