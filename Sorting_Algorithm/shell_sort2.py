@@ -5,3 +5,11 @@ def shell_sort_ciura_sequence(array):
     :param array: Lista di elementi da ordinare.
     :return: Lista ordinata.
     """
+    # Sequenza di gap di Ciura (migliorata): [701, 301, 132, 57, 23, 10, 4, 1]
+    ciura_gaps = [701, 301, 132, 57, 23, 10, 4, 1]
+    for gap in ciura_gaps:
+        if gap < len(array):
+            for i in range(gap, len(array)):
+                temp = array[i]
+                j = i
+                
