@@ -22,3 +22,8 @@ def shell_sort_ciura_sequence(array):
                 array[j] = temp
     
     return array
+# Esempio di utilizzo
+if __name__ == "__main__":
+    array_di_esempio = [64, 34, 25, 12, 22, 11, 90]
+    print("Array originale:", array_di_esempio)
+    print("Array ordinato con Shell Sort (sequenza di Ciura):", shell_sort_ciura_sequence(array_di_esempio))
