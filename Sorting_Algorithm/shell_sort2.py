@@ -13,3 +13,12 @@ def shell_sort_ciura_sequence(array):
                 temp = array[i]
                 j = i
                 
+                # Spostamento degli elementi più grandi verso destra
+                while j >= gap and array[j - gap] > temp:
+                    array[j] = array[j - gap]
+                    j -= gap
+                
+                # Inserimento dell'elemento nella posizione corretta
+                array[j] = temp
+    
+    return array
