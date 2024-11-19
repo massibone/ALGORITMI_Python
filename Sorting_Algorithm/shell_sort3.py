@@ -31,3 +31,11 @@ def test_shell_sort(array):
     print(f"Tempo di esecuzione: {end_time - start_time:.6f} secondi")
     print("Ordinamento corretto:", sorted_array == sorted(array))
     print()
+
+if __name__ == "__main__":
+    test_shell_sort([64, 34, 25, 12, 22, 11, 90])
+    
+    # Test con un array più grande
+    import random
+    large_array = [random.randint(1, 1000) for _ in range(10000)]
+    test_shell_sort(large_array)
