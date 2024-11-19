@@ -21,6 +21,7 @@ def shell_sort_ciura_sequence(array):
                     j -= gap
                 array[j] = temp
     return array
+
 def test_shell_sort(array):
     print("Array originale:", array)
     start_time = time.time()
