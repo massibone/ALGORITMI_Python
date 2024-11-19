@@ -21,3 +21,12 @@ def shell_sort_ciura_sequence(array):
                     j -= gap
                 array[j] = temp
     return array
+def test_shell_sort(array):
+    print("Array originale:", array)
+    start_time = time.time()
+    sorted_array = shell_sort_ciura_sequence(array.copy())
+    end_time = time.time()
+    print("Array ordinato:", sorted_array)
+    print(f"Tempo di esecuzione: {end_time - start_time:.6f} secondi")
+    print("Ordinamento corretto:", sorted_array == sorted(array))
+    print()
