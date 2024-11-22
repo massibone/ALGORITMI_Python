@@ -21,3 +21,22 @@ def bucket_sort(arr, num_buckets):
 
   # Calcola la dimensione di ogni bucket
   bucket_size = (max_val - min_val) // num_buckets + 1
+
+  # Crea una lista di bucket vuoti
+  buckets = [[] for _ in range(num_buckets)]
+
+  # Distribuisci gli elementi nei bucket
+  for num in arr:
+    bucket_index = (num - min_val) // bucket_size
+    buckets[bucket_index].append(num)
+
+  # Ordina ogni bucket usando Insertion Sort
+  for i in range(num_buckets):
+    insertion_sort(buckets[i])
+
+  # Concatena i bucket ordinati per ottenere l'array finale ordinato
+  result = []
+  for bucket in buckets:
+    result.extend(bucket)
+
+  return result
