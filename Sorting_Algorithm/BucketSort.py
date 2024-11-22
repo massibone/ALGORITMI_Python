@@ -4,7 +4,7 @@ e poi ordina ogni secchio individualmente usando un altro algoritmo di ordinamen
 Infine, i secchi ordinati vengono combinati per ottenere l'array finale ordinato.
 '''
 def bucket_sort(arr, num_buckets):
-  """
+  '''
   Implementa l'algoritmo di Bucket Sort.
 
   Args:
@@ -13,4 +13,4 @@ def bucket_sort(arr, num_buckets):
 
   Returns:
     L'array ordinato.
-  """
+  '''
