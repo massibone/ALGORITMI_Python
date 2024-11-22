@@ -14,3 +14,10 @@ def bucket_sort(arr, num_buckets):
   Returns:
     L'array ordinato.
   '''
+
+  # Trova il valore minimo e massimo nell'array
+  min_val = min(arr)
+  max_val = max(arr)
+
+  # Calcola la dimensione di ogni bucket
+  bucket_size = (max_val - min_val) // num_buckets + 1
