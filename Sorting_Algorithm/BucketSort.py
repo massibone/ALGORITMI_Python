@@ -40,3 +40,10 @@ def bucket_sort(arr, num_buckets):
     result.extend(bucket)
 
   return result
+def insertion_sort(arr):
+  """
+  Implementa l'algoritmo di Insertion Sort.
+
+  Args:
+    arr: L'array da ordinare.
+  """
