@@ -54,3 +54,10 @@ def insertion_sort(arr):
       arr[j + 1] = arr[j]
       j -= 1
     arr[j + 1] = key
+
+
+# Esempio di utilizzo
+arr = [29, 72, 9, 5, 86, 33, 94, 24, 57, 17, 85, 25]
+num_buckets = 5
+sorted_arr = bucket_sort(arr, num_buckets)
+print(sorted_arr)
