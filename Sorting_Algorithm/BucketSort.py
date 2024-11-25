@@ -3,6 +3,7 @@ Bucket Sort divide l'array originale in un certo numero di "secchi" (bucket),
 e poi ordina ogni secchio individualmente usando un altro algoritmo di ordinamento (spesso Insertion Sort o Merge Sort). 
 Infine, i secchi ordinati vengono combinati per ottenere l'array finale ordinato.
 '''
+
 def bucket_sort(arr, num_buckets):
   '''
   Implementa l'algoritmo di Bucket Sort.
@@ -40,6 +41,7 @@ def bucket_sort(arr, num_buckets):
     result.extend(bucket)
 
   return result
+  
 def insertion_sort(arr):
   '''
   Implementa l'algoritmo di Insertion Sort.
@@ -54,7 +56,6 @@ def insertion_sort(arr):
       arr[j + 1] = arr[j]
       j -= 1
     arr[j + 1] = key
-
 
 # Esempio di utilizzo
 arr = [29, 72, 9, 5, 86, 33, 94, 24, 57, 17, 85, 25]
