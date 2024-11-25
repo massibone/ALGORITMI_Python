@@ -41,12 +41,12 @@ def bucket_sort(arr, num_buckets):
 
   return result
 def insertion_sort(arr):
-  """
+  '''
   Implementa l'algoritmo di Insertion Sort.
 
   Args:
     arr: L'array da ordinare.
-  """
+  '''
  for i in range(1, len(arr)):
     key = arr[i]
     j = i - 1
