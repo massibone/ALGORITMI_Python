@@ -1,4 +1,4 @@
-
+'''
 differenza con jump search.
 Interpolation Search stima la posizione dell'elemento basandosi sul valore e sull'intervallo di ricerca, 
 mentre Jump Search divide i dati in blocchi e ricerca linearmente in ciascuno. 
