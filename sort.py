@@ -2,7 +2,6 @@ import datetime
 scelta = -1
 array_numbers = [64, 26, 93, 27, 97, 31, 44, 55, 20, 41]
 
-
 def insertion_sort(lista):
     n = len(lista)
     for i in range(1, n):       # effettua n-1 iterazioni a partire dal secondo elemento della lista
