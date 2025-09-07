@@ -5,6 +5,7 @@ fino a trovare il blocco che potrebbe contenere l'elemento.
 Funziona dividendo ripetutamente l'intervallo di ricerca a metà e controllando se l'elemento si trova nella metà inferiore o superiore.
 '''
 
+
 def ricerca_esponenziale(array, elemento):
     """
     Implementazione della ricerca esponenziale per trovare un elemento in un array ordinato.
