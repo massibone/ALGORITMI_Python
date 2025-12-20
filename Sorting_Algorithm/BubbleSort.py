@@ -19,4 +19,3 @@ arr = [64, 34, 25, 12, 22, 11, 90]
 print("Array originale:", arr)
 bubble_sort(arr)
 print("Array ordinato:", arr)
-
