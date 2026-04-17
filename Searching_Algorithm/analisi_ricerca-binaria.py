@@ -1,6 +1,7 @@
 '''
 Funzione Python che implementi la ricerca binaria per trovare un elemento in una lista ordinata.
 '''
+
 def ricerca_binaria(lista, elemento):
     """Implementa la ricerca binaria in una lista ordinata."""
     inizio = 0
